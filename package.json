@@ -1,0 +1,27 @@
+{
+  "name": "run-typescript-in-nodemon",
+  "version": "1.0.0",
+  "description": "Easily run a TypeScript application under nodemon",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerriaJS/run-typescript-in-nodemon.git"
+  },
+  "author": "CSIRO's Data61",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TerriaJS/run-typescript-in-nodemon/issues"
+  },
+  "homepage": "https://github.com/TerriaJS/run-typescript-in-nodemon#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "peerDependencies": {
+    "nodemon": "*",
+    "ts-node": "*"
+  },
+  "bin": {
+    "run-typescript-in-nodemon": "index.js"
+  }
+}
